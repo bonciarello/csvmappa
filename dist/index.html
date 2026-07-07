@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Converti file CSV in JSON con anteprima live e editor di mapping interattivo. Trascina il tuo CSV, mappa le colonne alle chiavi JSON che preferisci, e scarica il risultato — tutto nel browser, senza inviare dati a nessun server." />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#0d9488" />
+
+  <title>Convertitore CSV → JSON — Drag &amp; Drop con Editor di Mapping</title>
+
+  <link rel="canonical" href="https://cristianporco.it/app/convertitore-da-csv-a-json-con-drag-and-drop-e-editor-di-mapping/" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Convertitore CSV → JSON — Drag &amp; Drop con Editor di Mapping" />
+  <meta property="og:description" content="Trascina il tuo CSV, mappa le colonne alle chiavi JSON che preferisci, e scarica il risultato. Tutto nel browser, zero dati inviati." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://cristianporco.it/app/convertitore-da-csv-a-json-con-drag-and-drop-e-editor-di-mapping/" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,400..600;1,14..32,400..600&family=JetBrains+Mono:ital,wght@0,400..500;1,400..500&display=swap" rel="stylesheet" />
+
+  <base href="./" />
+
+  <style>
+    /* Critical inline: prevent FOUC and set base theme */
+    :root {
+      --surface: #f8fafc;
+      --card: #ffffff;
+      --primary: #0d9488;
+      --primary-hover: #0f766e;
+      --primary-subtle: #f0fdfa;
+      --accent: #f43f5e;
+      --accent-subtle: #fff1f2;
+      --amber: #d97706;
+      --amber-subtle: #fffbeb;
+      --text: #1e293b;
+      --text-secondary: #64748b;
+      --text-muted: #94a3b8;
+      --border: #e2e8f0;
+      --border-focus: #0d9488;
+      --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
+      --shadow: 0 1px 3px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.06);
+      --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -4px rgba(0,0,0,0.1);
+      --radius: 8px;
+      --radius-sm: 4px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; }
+    body {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      background: var(--surface);
+      color: var(--text);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+  </style>
+
+  <!-- JSON-LD Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Convertitore CSV → JSON",
+    "url": "https://cristianporco.it/app/convertitore-da-csv-a-json-con-drag-and-drop-e-editor-di-mapping/",
+    "description": "Converti file CSV in JSON con anteprima live e editor di mapping interattivo. Trascina il tuo CSV, mappa le colonne alle chiavi JSON, e scarica il risultato.",
+    "applicationCategory": "DeveloperApplication",
+    "operatingSystem": "Web",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" }
+  }
+  </script>
+  <script type="module" crossorigin src="./assets/index-Cb-fNPKt.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-C_mFtf5D.css">
+</head>
+<body>
+  <div id="app"></div>
+</body>
+</html>

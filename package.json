@@ -1,0 +1,19 @@
+{
+  "name": "convertitore-csv-json",
+  "version": "1.0.0",
+  "description": "Convertitore CSV → JSON con drag & drop e editor di mapping interattivo",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "serve": "node server.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "@sveltejs/vite-plugin-svelte": "^7.2.0",
+    "papaparse": "^5.5.4",
+    "svelte": "^5.56.4",
+    "vite": "^8.1.3"
+  }
+}
