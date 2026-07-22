@@ -1,3 +1,2 @@
 User-agent: *
 Allow: /
-Sitemap: https://cristianporco.it/app/convertitore-da-csv-a-json-con-drag-and-drop-e-editor-di-mapping/sitemap.xml
